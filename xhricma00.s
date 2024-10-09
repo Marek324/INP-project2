@@ -5,9 +5,9 @@
 
 ; DATA SEGMENT
                 .data
-msg:            .asciiz "marekhric" ; 
-key:            .byte   8, 18, 9 ;
-cipher:         .space  31 ;
+msg:            .asciiz "marekhric" 
+key:            .byte   8, 18, 9; h, r, i
+cipher:         .space  31
 
 params_sys5:    .space  8 
 

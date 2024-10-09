@@ -86,7 +86,16 @@ main:
                 b       return_fix_char; return 
 
             end:
-
+                ; reset registers
+                addi    r5, r0, 0
+                addi    r8, r0, 0
+                addi    r9, r0, 0
+                addi    r10, r0, 0
+                addi    r11, r0, 0
+                addi    r12, r0, 0
+                addi    r13, r0, 0
+                addi    r14, r0, 0
+                addi    r15, r0, 0
 
 
 
